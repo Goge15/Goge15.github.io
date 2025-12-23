@@ -19,20 +19,20 @@
   <meta name="author" content="BingGo15">
   <meta name="keywords" content="">
   
-    <meta name="description" content="nvm 简介nvm 全称为 node.js version management，顾名思义是用于管理多个 nodejs 的版本控制工具。通过 nvm 可以安装和切换不同版本的 nodejs。nvm 主要是为了解决 node.js 各种版本存在不兼容现象。 1、install nvm🔎 nvm-windows 官方下载地址.    2、base command【主要验证 nvm 是否安装成功】12">
+    <meta name="description" content="nvm 简介nvm 全称为 node.js version management，顾名思义是用于管理多个 nodejs 的版本控制工具。通过 nvm 可以安装和切换不同版本的 nodejs。nvm 主要是为了解决 node.js 各种版本存在不兼容现象。 一、nvm 的安装与配置1、install nvm🔎 nvm-windows 官方下载地址.    2、base command【主要验证 n">
 <meta property="og:type" content="article">
 <meta property="og:title" content="nvm安装以及部署">
 <meta property="og:url" content="http://example.com/2025/12/22/nvm/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="nvm 简介nvm 全称为 node.js version management，顾名思义是用于管理多个 nodejs 的版本控制工具。通过 nvm 可以安装和切换不同版本的 nodejs。nvm 主要是为了解决 node.js 各种版本存在不兼容现象。 1、install nvm🔎 nvm-windows 官方下载地址.    2、base command【主要验证 nvm 是否安装成功】12">
+<meta property="og:description" content="nvm 简介nvm 全称为 node.js version management，顾名思义是用于管理多个 nodejs 的版本控制工具。通过 nvm 可以安装和切换不同版本的 nodejs。nvm 主要是为了解决 node.js 各种版本存在不兼容现象。 一、nvm 的安装与配置1、install nvm🔎 nvm-windows 官方下载地址.    2、base command【主要验证 n">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://example.com/nvm/az1.jpg">
+<meta property="og:image" content="http://example.com/images/nvm.png">
 <meta property="article:published_time" content="2025-12-22T12:50:45.000Z">
-<meta property="article:modified_time" content="2025-12-22T15:47:21.003Z">
+<meta property="article:modified_time" content="2025-12-23T06:03:11.501Z">
 <meta property="article:author" content="BingGo15">
-<meta property="article:tag" content="工具">
+<meta property="article:tag" content="nvm">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://example.com/nvm/az1.jpg">
+<meta name="twitter:image" content="http://example.com/images/nvm.png">
   
   
   
@@ -196,7 +196,7 @@
   
 
 <div id="banner" class="banner" parallax=true
-     style="background: url('/img/post_banner.jpg') no-repeat center center; background-size: cover;">
+     style="background: url('/./images/default.png') no-repeat center center; background-size: cover;">
   <div class="full-bg-img">
     <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
       <div class="banner-text text-center fade-in-up">
@@ -225,7 +225,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          107 字
+          651 字
         
       </span>
     
@@ -236,7 +236,7 @@
         
         
         
-          1 分钟
+          6 分钟
         
       </span>
     
@@ -279,13 +279,72 @@
               <div class="markdown-body">
                 
                 <p>nvm 简介<br>nvm 全称为 node.js version management，顾名思义是用于管理多个 nodejs 的版本控制工具。通过 nvm 可以安装和切换不同版本的 nodejs。nvm 主要是为了解决 node.js 各种版本存在不兼容现象。</p>
-<h2 id="1、install-nvm"><a href="#1、install-nvm" class="headerlink" title="1、install nvm"></a>1、install nvm</h2><p>🔎 <a target="_blank" rel="noopener" href="https://github.com/coreybutler/nvm-windows/releases">nvm-windows 官方下载地址</a>.</p>
+<h1 id="一、nvm-的安装与配置"><a href="#一、nvm-的安装与配置" class="headerlink" title="一、nvm 的安装与配置"></a>一、nvm 的安装与配置</h1><h2 id="1、install-nvm"><a href="#1、install-nvm" class="headerlink" title="1、install nvm"></a>1、install nvm</h2><p>🔎 <a target="_blank" rel="noopener" href="https://github.com/coreybutler/nvm-windows/releases">nvm-windows 官方下载地址</a>.</p>
 <p><img src="/./images/nvm-setup.png" srcset="/img/loading.gif" lazyload></p>
 <p><img src="/./images/az1.png" srcset="/img/loading.gif" lazyload></p>
 <p><img src="/./images/az2.png" srcset="/img/loading.gif" lazyload></p>
 <h2 id="2、base-command【主要验证-nvm-是否安装成功】"><a href="#2、base-command【主要验证-nvm-是否安装成功】" class="headerlink" title="2、base command【主要验证 nvm 是否安装成功】"></a>2、base command【主要验证 nvm 是否安装成功】</h2><figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs applescript">```<br><span class="hljs-comment"># 查看 nvm 版本，version 可简写成 小v</span><br>nvm <span class="hljs-built_in">version</span><br>nvm v<br><span class="hljs-comment"># 显示 node 是运行在 32 位还是 64 位</span><br>nvm arch<br>```<br></code></pre></td></tr></table></figure>
 
 <p><img src="/./images/t4.png" srcset="/img/loading.gif" lazyload></p>
+<p class="note note-primary">重头戏来啦</p>
+
+<figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs apache"><br><span class="hljs-comment"># 显示已经安装的列表，list 可简化为 ls</span><br><span class="hljs-attribute">nvm</span> list<br><span class="hljs-comment"># 显示远程可安装的列表，list 也可简化为 ls</span><br><span class="hljs-attribute">nvm</span> list available<br><span class="hljs-comment"># 卸载指定版本 node</span><br><span class="hljs-attribute">nvm</span> uninstall<span class="hljs-meta"> [version]</span><br><span class="hljs-comment"># 使用指定版本 node</span><br><span class="hljs-attribute">nvm</span> use<span class="hljs-meta"> [version]</span><br></code></pre></td></tr></table></figure>
+
+<p><img src="/./images/t5.png" srcset="/img/loading.gif" lazyload></p>
+<p><img src="/./images/t6.png" srcset="/img/loading.gif" lazyload></p>
+<h2 id="3、configure-taobao-mirror【配置下载镜像】"><a href="#3、configure-taobao-mirror【配置下载镜像】" class="headerlink" title="3、configure taobao mirror【配置下载镜像】"></a>3、configure taobao mirror【配置下载镜像】</h2><p>在 <code>nvm</code> 的安装路径下，找到 <code>settings.txt</code>，在后面加上这两行，设置国内淘宝镜像源：</p>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs awk">node_mirror: https:<span class="hljs-regexp">//</span>npmmirror.com<span class="hljs-regexp">/mirrors/</span>node/<br>npm_mirror: https:<span class="hljs-regexp">//</span>npmmirror.com<span class="hljs-regexp">/mirrors/</span>npm/<br></code></pre></td></tr></table></figure>
+
+
+
+<p><strong>提醒</strong>：<br><a target="_blank" rel="noopener" href="https://developer.aliyun.com/mirror/">阿里云开源镜像站</a>：<br><a target="_blank" rel="noopener" href="https://npm.taobao.org/%E3%80%90%E8%AF%A5%E5%9F%9F%E5%90%8D%E5%9C%A8">https://npm.taobao.org/【该域名在</a> 2022.06.30 号正式下线和停止 DNS 解析，新域名<a target="_blank" rel="noopener" href="https://developer.aliyun.com/mirror/NPM">npmmirror.com</a>】</p>
+<p><img src="/./images/t7.png" srcset="/img/loading.gif" lazyload></p>
+<p><img src="/./images/t8.png" srcset="/img/loading.gif" lazyload></p>
+<h1 id="二、node-的安装与配置"><a href="#二、node-的安装与配置" class="headerlink" title="二、node 的安装与配置"></a>二、node 的安装与配置</h1><h2 id="1、install-node"><a href="#1、install-node" class="headerlink" title="1、install node"></a>1、install node</h2><figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs apache"><span class="hljs-attribute">nvm</span> list available<br><span class="hljs-attribute">nvm</span> install <span class="hljs-number">16</span><br><span class="hljs-attribute">nvm</span> list<br><span class="hljs-attribute">nvm</span> use <span class="hljs-number">16</span><br></code></pre></td></tr></table></figure>
+
+<p class="note note-primary">小提示：不要安装 node 的奇数版本！LTS 一般就是偶数版本。</p>
+
+<p><img src="/./images/t9.png" srcset="/img/loading.gif" lazyload></p>
+<p><img src="/./images/t10.png" srcset="/img/loading.gif" lazyload></p>
+<h2 id="2、修改-npm-默认镜像源【新增内容】"><a href="#2、修改-npm-默认镜像源【新增内容】" class="headerlink" title="2、修改 npm 默认镜像源【新增内容】"></a>2、修改 npm 默认镜像源【新增内容】</h2><h3 id="手动修改"><a href="#手动修改" class="headerlink" title="手动修改"></a>手动修改</h3><ol>
+<li><p>修改 <code>npm</code> 镜像源为淘宝镜像源</p>
+<figure class="highlight tcl"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs tcl">npm config <span class="hljs-keyword">set</span> <span class="hljs-keyword">registry</span> <span class="hljs-keyword">http</span>://<span class="hljs-keyword">registry</span>.npmmirror.com<br></code></pre></td></tr></table></figure>
+
+
+</li>
+<li><p>检查是否成功</p>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs routeros">npm<span class="hljs-built_in"> config </span><span class="hljs-built_in">get</span> registry<br></code></pre></td></tr></table></figure></li>
+</ol>
+<p><img src="/./images/t11.png" srcset="/img/loading.gif" lazyload></p>
+<h2 id="3、配置-node-的-prefix（全局路径）和-cache（缓存路径）"><a href="#3、配置-node-的-prefix（全局路径）和-cache（缓存路径）" class="headerlink" title="3、配置 node 的 prefix（全局路径）和 cache（缓存路径）"></a>3、配置 node 的 prefix（全局路径）和 cache（缓存路径）</h2><h3 id="设置全局模板（prefix）和缓存文件（cache）的存放路径："><a href="#设置全局模板（prefix）和缓存文件（cache）的存放路径：" class="headerlink" title="设置全局模板（prefix）和缓存文件（cache）的存放路径："></a>设置全局模板（prefix）和缓存文件（cache）的存放路径：</h3><figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs swift"># npm config <span class="hljs-keyword">set</span> cache <span class="hljs-string">&quot;%NVM_SYMLINK%<span class="hljs-subst">\n</span>ode_cache&quot;</span><br>npm config <span class="hljs-keyword">set</span> cache <span class="hljs-string">&quot;D:<span class="hljs-subst">\n</span>vm<span class="hljs-subst">\n</span>odejs<span class="hljs-subst">\n</span>ode_cache&quot;</span><br></code></pre></td></tr></table></figure>
+
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs swift"># npm config <span class="hljs-keyword">set</span> <span class="hljs-keyword">prefix</span> <span class="hljs-string">&quot;%NVM_SYMLINK%<span class="hljs-subst">\n</span>ode_global&quot;</span><br>npm config <span class="hljs-keyword">set</span> <span class="hljs-keyword">prefix</span> <span class="hljs-string">&quot;D:<span class="hljs-subst">\n</span>vm<span class="hljs-subst">\n</span>odejs<span class="hljs-subst">\n</span>ode_global&quot;</span><br></code></pre></td></tr></table></figure>
+
+<figure class="highlight axapta"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs axapta"><span class="hljs-meta"># 可编辑 .npmrc 配置文件</span><br>npm config <span class="hljs-keyword">edit</span><br></code></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-comment"># 查看部分 .npmrc 配置信息</span><br>npm config <span class="hljs-built_in">ls</span><br></code></pre></td></tr></table></figure>
+
+
+
+<h2 id="4、配置-node-环境变量（通用配置，仅需一次配置）"><a href="#4、配置-node-环境变量（通用配置，仅需一次配置）" class="headerlink" title="4、配置 node 环境变量（通用配置，仅需一次配置）"></a>4、配置 node 环境变量（通用配置，仅需一次配置）</h2><h3 id="版本一：【推荐】简单"><a href="#版本一：【推荐】简单" class="headerlink" title="版本一：【推荐】简单"></a>版本一：【推荐】简单</h3><p><img src="/./images/t14.png" srcset="/img/loading.gif" lazyload></p>
+<h3 id="版本二：【跳过就行】复杂"><a href="#版本二：【跳过就行】复杂" class="headerlink" title="版本二：【跳过就行】复杂"></a>版本二：【跳过就行】复杂</h3><p>​	1.编辑用户变量中的Path:</p>
+<blockquote>
+<p>​	<img src="/./images/t15.png" srcset="/img/loading.gif" lazyload></p>
+</blockquote>
+<p class="note note-primary">注意：【用户变量】中的path变量，%NVM_HOME% 和 %NVM_SYMLINK% 理论上是nvm安装成功后自动生成的。> 如果有C:UsershuaAppDataRoaming npm，则将其修改为D:\NVM\node_global，如果没有就自己新建D:\NVM\node_global，总之保证有以上内容。</p>
+
+<p>​	2.再设置系统变量 — Path变量的设置和用户变量中一致:</p>
+<p>​		<img src="/./images/t16.png" srcset="/img/loading.gif" lazyload></p>
+<p>​	3.添加系统变量:</p>
+<p>​		<img src="/./images/t17.png" srcset="/img/loading.gif" lazyload></p>
+<p>点击三次确定，完成环境变量配置！！！<br>点击三次确定，完成环境变量配置！！！<br>点击三次确定，完成环境变量配置！！！</p>
+<h2 id="5、配置完成后，输入以下命令进行验证"><a href="#5、配置完成后，输入以下命令进行验证" class="headerlink" title="5、配置完成后，输入以下命令进行验证"></a>5、配置完成后，输入以下命令进行验证</h2><figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs crmsh"><br><span class="hljs-comment"># 查看 node 版本，若返回版本号，node 可用</span><br><span class="hljs-keyword">node</span> <span class="hljs-title">-v</span><br></code></pre></td></tr></table></figure>
+
+<figure class="highlight coffeescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs coffeescript"><span class="hljs-comment"># 查看 npm 版本，若返回版本号，npm 可用</span><br><span class="hljs-built_in">npm</span> -v<br></code></pre></td></tr></table></figure>
+
+<p>如果返回了相应的版本号，则证明成功。</p>
+<p><img src="/./images/t18.png" srcset="/img/loading.gif" lazyload></p>
+<h1 id="三、【选学】扩展：nvm-如何实现-node-任意切换"><a href="#三、【选学】扩展：nvm-如何实现-node-任意切换" class="headerlink" title="三、【选学】扩展：nvm 如何实现 node 任意切换"></a>三、【选学】扩展：nvm 如何实现 node 任意切换</h1><p><img src="/./images/t19.png" srcset="/img/loading.gif" lazyload></p>
 
                 
               </div>
@@ -294,11 +353,39 @@
             <div>
               <div class="post-metas my-3">
   
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E5%BA%94%E7%94%A8%E5%B7%A5%E5%85%B7/" class="category-chain-item">应用工具</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/%E5%BA%94%E7%94%A8%E5%B7%A5%E5%85%B7/nvm/" class="category-chain-item">nvm</a>
+  
+  
+
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
   
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/%E5%B7%A5%E5%85%B7/" class="print-no-link">#工具</a>
+        <a href="/tags/nvm/" class="print-no-link">#nvm</a>
       
     </div>
   
@@ -371,6 +458,37 @@
             </div>
 
             
+  
+  
+    <article id="comments" lazyload>
+      
+  <div id="valine"></div>
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#valine', function() {
+      Fluid.utils.createScript('https://lib.baomitu.com/valine/1.5.1/Valine.min.js', function() {
+        var options = Object.assign(
+          {"appId":"SWzLNKqCQPfPyb5PDmDvVgBN-gzGzoHsz","appKey":"nIZmVtLAojIidiriIuwcNPAp","path":"window.location.pathname","placeholder":"留言仅限讨论，禁止广告等行为","avatar":"retro","meta":["nick","mail","link"],"requiredFields":[],"pageSize":10,"lang":"zh-CN","highlight":false,"recordIP":false,"serverURLs":"https://swzlnkqc.lc-cn-n1-shared.com","emojiCDN":null,"emojiMaps":null,"enableQQ":false},
+          {
+            el: "#valine",
+            path: window.location.pathname
+          }
+        )
+        new Valine(options);
+        Fluid.utils.waitElementVisible('#valine .vcontent', () => {
+          var imgSelector = '#valine .vcontent img:not(.vemoji)';
+          Fluid.plugins.imageCaption(imgSelector);
+          Fluid.plugins.fancyBox(imgSelector);
+        })
+      });
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+
+
+    </article>
+  
+
+
           </article>
         </div>
       </div>
